@@ -44,6 +44,9 @@ def load_data(database_filepath):
 
 
 def tokenize(text):
+    '''
+    leverage nltk tokenizer and lemmatizer to get clean word tokens
+    '''	
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
 
